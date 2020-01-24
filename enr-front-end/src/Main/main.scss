@@ -1,0 +1,22 @@
+.Main{
+    height:100%;
+    display: flex;
+}
+.Main_left {
+    background-color: black;
+    color:white;
+    flex-basis: 1;
+    flex-grow:1;
+    flex-shrink: 1;
+    width:20%;
+    height:100%;
+}
+
+.Main_right {
+    
+    flex-basis: 4;
+    flex-grow:4;
+    flex-shrink: 4;
+    width:80%;
+    height:100%;
+}

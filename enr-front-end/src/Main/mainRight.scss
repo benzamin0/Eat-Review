@@ -1,0 +1,24 @@
+.Main_Right{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Main_Right_Map {
+
+    flex-basis: 2;
+    flex-grow:2;
+    flex-shrink: 2;
+    background-color: aqua;
+    height: 70%;
+
+}
+
+.Main_Right_List {
+
+    flex-basis: 1;
+    flex-grow:1;
+    flex-shrink: 1;
+    height: 30%;
+
+}
